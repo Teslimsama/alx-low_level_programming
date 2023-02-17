@@ -23,4 +23,3 @@ else
      printf("less than 6 but not 0\n");
 return(0);
 }
-  * main - Entry point
