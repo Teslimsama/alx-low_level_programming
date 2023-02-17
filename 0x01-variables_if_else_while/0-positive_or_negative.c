@@ -7,7 +7,18 @@
 * Return: 0 (success)
 */
 int main(void)
-{>>0-positive_or_negative.c
-echo {>>0-positive_or_negative.c
-echo {
 {
+  int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	printf("%d ", n);
+	if (n == 0)
+		printf("is zero");
+	else if (n > 0)
+		printf("is positive");
+	else
+		printf("is negative");
+	printf("\n");
+	return (0);
+}
