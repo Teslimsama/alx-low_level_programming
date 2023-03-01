@@ -1,0 +1,1 @@
+This directory will be used for more pointers, arrays and strings projects
